@@ -9,9 +9,8 @@ Il est important d'activer ceci :
 
 ![bot](https://user-images.githubusercontent.com/77754159/120925888-f3c6e300-c6da-11eb-90e2-7eb7f4deccc6.png)
 
-Sinon le bot ne se serra hors-ligne.
+Si vous ne le faites pas, le bot serra hors-ligne et donc inutilisable. 
 
-C'est aussi simple que ça !
 
 # Disclaimer
 Amusez vous bien 😈, mais attention ⚠️, je ne suis pas responsable de vos action, raid et/ou autres gestes de malveillance.
