@@ -66,14 +66,14 @@ token = input("Token du bot > ")
 
 spam = "**@everyone REJOIGNEZ CE SERVEUR POUR NE PLUS ÊTRE UN ||SKID|| >>  https://discord.gg/ctSu6vYpZc ! @here**"
 
-username = "billy#4000"
+username = "Petit Homme#6118"
 
 nombre_spam = True
 
 nom_salons = "nuke by ph "
 nombre_salons = 70
 
-nom_roles = "PH"
+nom_roles = "(nom du serveur)"
 nombre_roles = 30
 
 nom_serveur = "Raid by PH 😈"
@@ -81,7 +81,7 @@ nom_serveur = "Raid by PH 😈"
 couleur_roles = 0x000001
 
 def spam_member(membre) :
-    return f"""Salut {membre}! Ce serveur a était raid par vengeance. (lien pub) 
+    return f"""Salut {membre}! Ce serveur a était raid par pure vengeance. (lien pub) 
 
 
 async def delete_all_channels(guild):
@@ -220,14 +220,14 @@ async def on_ready():
     print("""La liste de mes commandes est:
 
 !help - afficher la liste des commandes disponibles
-!nuke - niquer le serveur totalement (sans ban)
-!mininuke - niquer le serveur (sans créer de rôles)
+!nuke - nuke le serveur totalement (sans ban)
+!mininuke - nuke le serveur (sans créer de rôles)
 !clearall - supprimer tous les salons et tous les rôles
 !clearchannels - supprimer tous les salons(sans supprimer les rôles)
 !cleartext - supprimer tous les salons textuels
 !clearvoice - supprimer tous les salons vocaux
 !clearroles - supprimer tous les rôles existants
-!ban - ban tous les membres(si possible)
+!ban - ban tous les membres (si possible)
 !create - créer des salons textuels et vocaux en boucle
 !createtext - créer des salons textuels en boucle
 !createvoice - créer des salons vocaux en boucle
