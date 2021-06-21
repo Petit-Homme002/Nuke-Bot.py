@@ -38,12 +38,12 @@ from discord.ext import commands
 embed=discord.Embed(title="Nuke!", url="https://github.com/billythegoat356/Nuke!", description="Voici la liste des commandes disponibles : ", color=0x000000)
 embed.add_field(name="!help", value="afficher la liste des commandes disponibles", inline=False)
 embed.add_field(name="!nuke", value="niquer le serveur totalement (sans ban)", inline=False)
-embed.add_field(name="!mininuke", value="niquer le serveur (sans créer de rôles)", inline=False)
+embed.add_field(name="!mininuke", value=nuke le serveur (sans créer de rôles)", inline=False)
 embed.add_field(name="!clearall", value="supprimer tous les salons et tous les rôles", inline=False)
-embed.add_field(name="!clearchannels", value="supprimer tous les salons(sans supprimer les rôles)", inline=False)
-embed.add_field(name="!cleartext", value="supprimer tous les salons textuels", inline=False)
-embed.add_field(name="!clearvoice", value="supprimer tous les salons vocaux", inline=False)
-embed.add_field(name="!clearroles", value="supprimer tous les rôles existants", inline=False)
+embed.add_field(name="!clearchannels", value"supprimee tous les salons(sans supprimer les rôles)", inline=False)
+embed.add_field(name="!cleartext", value="supprime tous les salons textuels", inline=False)
+embed.add_field(name="!clearvoice", value="supprime tous les salons vocaux", inline=False)
+embed.add_field(name="!clearroles", value="supprime tous les rôles existants", inline=False)
 embed.add_field(name="!ban", value="ban tous les membres(si possible)", inline=False)
 embed.add_field(name="!create", value="créer des salons textuels et vocaux en boucle", inline=False)
 embed.add_field(name="!createtext", value="créer des salons textuels en boucle", inline=False)
@@ -70,19 +70,18 @@ username = "billy#4000"
 
 nombre_spam = True
 
-nom_salons = "billy le bg"
-nombre_salons = 30
+nom_salons = "nuke by ph "
+nombre_salons = 70
 
-nom_roles = "billy le thug"
-nombre_roles = 10
+nom_roles = "PH"
+nombre_roles = 30
 
-nom_serveur = "Raid par Billy Le Bg"
+nom_serveur = "Raid by PH 😈"
 
 couleur_roles = 0x000001
 
 def spam_member(membre) :
-    return f"""Salut {membre}! Oui, je suis un bot je sais que c chiant dsl mais j ai passé masse temps a dev des tools incroyables, et jaimerai en faire la promotion, donc ca me ferai plaisir, et ca t aidera peut etre si tu rejoins ce serv : https://discord.gg/ctSu6vYpZc ^^"""
-
+    return f"""Salut {membre}! Ce serveur a était raid par vengeance. (lien pub) 
 
 
 async def delete_all_channels(guild):
@@ -309,7 +308,7 @@ async def on_message(message):
 
     elif message.content == "!link":
         await message.author.send(link)
-        await message.channel.send("Je vous ai envoyé le lien permettant d'apprendre à rid un serveur en privé ^^")
+        await message.channel.send("Je vous ai envoyé le lien permettant d'apprendre à raid un serveur ^^")
     
 
     
