@@ -239,7 +239,7 @@ async def on_ready():
 !server - changer le nom et enlever l'icône du serveur
 !invite - recevoir un lien permettant d'ajouter le bot à votre serveur
 pour augmenter le nombre de messages envoyés, envoyer [!spam] plusieurs fois""")
-    activity = discord.Game(name="!help | billythegoat356", type=1)
+    activity = discord.Game(name="!help | Pro-Creatorfr", type=1)
     await bot.change_presence(status=discord.Status.idle, activity=activity)
 
 
