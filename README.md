@@ -12,5 +12,3 @@ Il est important d'activer ceci:
 Sinon le bot ne se mettra pas en ligne.
 
 C'est aussi simple que ça!
-
-# Disclaimer
