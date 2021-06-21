@@ -14,6 +14,5 @@ Sinon le bot ne se mettra pas en ligne.
 C'est aussi simple que ça !
 
 # Disclaimer
-Amusez vous bien 😈, mais attention ⚠️,
-Je ne suis pas responsable de vos action, raid et/ou autres gestes de malveillance.
+Amusez vous bien 😈, mais attention ⚠️, je ne suis pas responsable de vos action, raid et/ou autres gestes de malveillance.
 Cordialement PH 👽
