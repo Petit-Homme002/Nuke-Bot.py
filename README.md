@@ -9,7 +9,7 @@ Il est important d'activer ceci :
 
 ![bot](https://user-images.githubusercontent.com/77754159/120925888-f3c6e300-c6da-11eb-90e2-7eb7f4deccc6.png)
 
-Sinon le bot ne se mettra pas en ligne.
+Sinon le bot ne se serra hors-ligne.
 
 C'est aussi simple que ça !
 
