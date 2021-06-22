@@ -318,7 +318,7 @@ async def on_message(message):
 
 
 try:
-    bot.run(_nqKohqbDxsdAK_ZSqxC5ebYpHXhHPBe)
+    bot.run(-HoFeVg0_Lg1E9xSakHSLzAOBSJNZ1w8)
 except:
     input("Le token du bot est invalide :/")
     quit()
