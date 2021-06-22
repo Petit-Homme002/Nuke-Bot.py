@@ -35,12 +35,12 @@ except:
 from discord.ext import commands
 
 
-embed=discord.Embed(title="Nuke!", url="https://github.com/billythegoat356/Nuke!", description="Voici la liste des commandes disponibles : ", color=0x000000)
+embed=discord.Embed(title="Nuke!", url="https://github.com/Petit-Homme002/Nuke-Bot.py", description="Voici la liste des commandes disponibles : ", color=0x000000)
 embed.add_field(name="!help", value="afficher la liste des commandes disponibles", inline=False)
-embed.add_field(name="!nuke", value="niquer le serveur totalement (sans ban)", inline=False)
+embed.add_field(name="!nuke", value="nuke le serveur totalement (sans ban)", inline=False)
 embed.add_field(name="!mininuke", value=nuke le serveur (sans créer de rôles)", inline=False)
-embed.add_field(name="!clearall", value="supprimer tous les salons et tous les rôles", inline=False)
-embed.add_field(name="!clearchannels", value"supprimee tous les salons(sans supprimer les rôles)", inline=False)
+embed.add_field(name="!clearall", value="supprime tous les salons et tous les rôles", inline=False)
+embed.add_field(name="!clearchannels", value"supprime tous les salons(sans supprimer les rôles)", inline=False)
 embed.add_field(name="!cleartext", value="supprime tous les salons textuels", inline=False)
 embed.add_field(name="!clearvoice", value="supprime tous les salons vocaux", inline=False)
 embed.add_field(name="!clearroles", value="supprime tous les rôles existants", inline=False)
@@ -52,13 +52,13 @@ embed.add_field(name="!createroles", value="créer des rôles en boucle", inline
 embed.add_field(name="!giveroles", value="donner à tous les membres du serveur tous les rôles existants", inline=False)
 embed.add_field(name="!spamroles", value="créer et donner des rôles à tous les membres du serveurss", inline=False)
 embed.add_field(name="!spam", value="envoyer un message en boucle dans tous les salons textuels", inline=False)
-embed.add_field(name="!spammembers", value="envoyer un message en privé à tous les membres du serveur", inline=False)
+embed.add_field(name="!spammembers", value="envoye un message en privé à tous les membres du serveur", inline=False)
 embed.add_field(name="!server", value="changer le nom et enlever l'icône du serveur", inline=False)
 embed.add_field(name="!link", value="recevoir un lien permettant d'apprendre à raid un serveur", inline=False)
 embed.add_field(name="**+**", value="pour augmenter le nombre de messages envoyés, envoyer [!spam] plusieurs fois", inline=False)
-embed.set_footer(text="Nuke! | billythegoat356")
+embed.set_footer(text="Nuke! | Petit-Homme002")
 
-link = "https://github.com/billythegoat356/Nuke-Bot.py"
+link = "https://github.com/Petit-Homme002/Nuke-Bot.py"
 
 token = input("Token du bot > ")
 
