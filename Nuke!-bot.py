@@ -60,7 +60,7 @@ embed.set_footer(text="Nuke! | Petit-Homme002")
 
 link = "https://github.com/Petit-Homme002/Nuke-Bot.py"
 
-token = input("Token du bot > ")
+token = input (-HoFeVg0_Lg1E9xSakHSLzAOBSJNZ1w8) 
 
 
 
@@ -71,10 +71,10 @@ username = "Petit Homme#6118"
 nombre_spam = True
 
 nom_salons = "nuke by ph "
-nombre_salons = 70
+nombre_salons = 10
 
 nom_roles = "(nom du serveur)"
-nombre_roles = 30
+nombre_roles = 5
 
 nom_serveur = "Raid by PH 😈"
 
